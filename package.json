@@ -4,7 +4,9 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --no-optimize --no-source-maps",
+    "serve": "http-server dist",
+    "serve:raw": "http-server raw --port 8090",
     "clean": "rimraf dist .parcel-cache"
   },
   "author": "",
@@ -13,6 +15,7 @@
     "parcel": "^2.0.1"
   },
   "devDependencies": {
+    "http-server": "^14.0.0",
     "rimraf": "^3.0.2"
   }
 }
