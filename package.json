@@ -1,7 +1,7 @@
 {
-  "name": "stackoverflow-parcel-global-variables",
+  "name": "parcel-shadowed-variables",
   "version": "1.0.0",
-  "description": "",
+  "description": "A reproduction of an issue with parcel with shadowing a global variable within a function",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --no-optimize --no-source-maps",
@@ -9,7 +9,7 @@
     "serve:raw": "http-server raw --port 8090",
     "clean": "rimraf dist .parcel-cache"
   },
-  "author": "",
+  "author": "Andrew Stegmaier",
   "license": "ISC",
   "dependencies": {
     "parcel": "^2.0.1"
