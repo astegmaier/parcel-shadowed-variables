@@ -12,7 +12,7 @@
   "author": "Andrew Stegmaier",
   "license": "ISC",
   "dependencies": {
-    "parcel": "^2.0.1"
+    "parcel": "2.0.0-nightly.939"
   },
   "devDependencies": {
     "http-server": "^14.0.0",
